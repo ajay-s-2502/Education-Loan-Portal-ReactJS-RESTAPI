@@ -1,0 +1,165 @@
+#heading
+{
+  margin-top: 80px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-size: x-large;
+  color:royalblue;
+}
+
+#subhead
+{
+  margin-top: 15px;
+  font-family:cursive;
+  text-align: center;
+  font-size: large;
+  color:white;
+}
+
+body
+{
+  background-image: url("Components/texturebg1.jpg");
+}
+
+#gold
+{
+  margin-left: 609px;
+  margin-top: 25px;
+  width: 300px;
+  height: 300px;
+}
+
+.button
+{
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: large;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: royalblue;
+  color:black;
+  font-weight: bold;
+  margin-left: 685px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+#lb1
+{
+  color:antiquewhite;
+  display: block;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 5px;
+  font-size: large;
+}
+
+#lb2
+{
+  margin-top: 30px;
+  color: antiquewhite;
+  display: block;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 5px;
+  font-size: large;
+}
+
+.adlogform
+{
+  margin-left: 655px;
+  margin-top: 50px;
+}
+
+#txtbox
+{
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-top: 5px;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: royalblue;
+}
+
+::placeholder
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+#adlogin
+{
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: large;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: royalblue;
+  color:black;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.app-contain {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+#h
+{
+  background-color: royalblue;
+  height: 100px;
+  font-size: x-large;
+  border-radius: 25px;
+}
+#t{
+  padding-top: 25px;
+  text-align: center;
+  color:black;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 32px;
+  color: #ffffff;
+}
+
+th {
+  background-color: rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+td {
+  background-color: rgb(41, 38, 38);
+  color: #ffffff;
+}
+#logout
+{
+  margin-top: 25px;
+  margin-left: 700px;
+}
+#out
+{
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: large;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: royalblue;
+  color:black;
+  font-weight: bold;
+  margin-left: 160px;
+  margin-top: 25px;
+  cursor: pointer;
+}
