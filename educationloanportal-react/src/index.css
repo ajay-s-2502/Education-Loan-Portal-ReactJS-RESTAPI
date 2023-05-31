@@ -151,7 +151,7 @@ td {
 }
 #out
 {
-  width: 150px;
+  width: 220px;
   height: 50px;
   border-radius: 30px;
   font-size: large;
@@ -162,4 +162,31 @@ td {
   margin-left: 160px;
   margin-top: 25px;
   cursor: pointer;
+}
+#add
+{
+  margin-top: 25px;
+  margin-left: 700px;
+}
+
+#lb
+{
+  color:antiquewhite;
+  display: block;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 5px;
+  font-size: small;
+}
+
+#inputform
+{
+  width: 200px;
+  height: 25px;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-top: 5px;
+  margin-top: 10px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: royalblue;
 }

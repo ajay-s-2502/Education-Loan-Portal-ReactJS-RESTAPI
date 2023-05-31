@@ -61,6 +61,11 @@ class Table extends Component
                     </tbody>
                 </table>
                 </div>
+                <div id='add'>
+                    <button type="submit" id='out'>
+                        Add Loan Applicant
+                    </button>
+                </div>
                 <div id='logout'>
                 <button type="submit" id='out'>
                     LOGOUT

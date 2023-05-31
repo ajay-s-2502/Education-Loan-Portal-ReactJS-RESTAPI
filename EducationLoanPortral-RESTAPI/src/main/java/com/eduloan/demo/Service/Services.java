@@ -88,5 +88,28 @@ public class Services {
 	}
 	
 
+	public String addUser(UserModel um) {
+		ur.save(um);
+		return "User Created Successfully!";
+	}
+
+	public String delUser(int id) {
+		ur.deleteById(id);
+		return "User Deleted Successfully!";
+	}
+
+	public String update(UserModel um) {
+		ur.save(um);
+		return null;
+	}
+	
+	public void addLoan(LoanApplicationModel lam)
+	{
+		lar.save(lam);
+	}
+	
+	
+	
+
 	
 }

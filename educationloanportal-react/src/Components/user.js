@@ -26,7 +26,7 @@ class User extends Component {
             password: this.state.password
         }
 
-        axios.post('http://localhost:8080/user/login', data)
+        axios.post('http://localhost:8080/user/signup', data)
     }
 
     render()

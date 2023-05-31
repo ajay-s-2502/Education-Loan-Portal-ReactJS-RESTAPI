@@ -7,13 +7,12 @@ import Home from './Components/home';
 import Admin from './Components/admin';
 import User from './Components/user';
 import Table from './Components/admintable';
+import AddLoan from './Components/addloan';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home/>
-    <Admin/>
-    <User/>
+    <AddLoan/>
     <Table/>
   </React.StrictMode>
 );
